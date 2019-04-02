@@ -1,0 +1,265 @@
+Start ... running 150 individual check executions.
+>> 	[1;36;40mcom.google.fonts/check/unitsperem_strict	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mStricter unitsPerEm criteria for Google Fonts. 	[0m
+ * 	[1;33;40mWARN	[0m: Even though unitsPerEm (1000) in this font is reasonable. It is strongly advised to consider changing it to 2000, since it will likely improve the quality of Variable Fonts by avoiding excessive rounding of coordinates on interpolations.
+
+   Result: 	[1;33;40mWARN	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/fsselection	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mChecking OS/2 fsSelection value.	[0m
+ * 	[1;31;40mFAIL	[0m: OS/2 fsSelection REGULAR bit should be set. [code: bad-REGULAR]
+
+   Result: 	[1;31;40mFAIL	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/contour_count	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mCheck if each glyph has the recommended amount of contours.	[0m
+ * 	[1;33;40mWARN	[0m: This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+Glyph name: quoteright	Contours detected: 2	Expected: 1
+Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
+Glyph name: quotedblright	Contours detected: 3	Expected: 2
+Glyph name: quotedblbase	Contours detected: 3	Expected: 2
+Glyph name: quotedbl	Contours detected: 3	Expected: 2
+Glyph name: ellipsis	Contours detected: 4	Expected: 3
+Glyph name: colon	Contours detected: 3	Expected: 2
+Glyph name: semicolon	Contours detected: 3	Expected: 2
+Glyph name: uni2076	Contours detected: 3	Expected: 2
+Glyph name: uni2077	Contours detected: 2	Expected: 1
+Glyph name: uni2078	Contours detected: 4	Expected: 3
+Glyph name: uni2079	Contours detected: 3	Expected: 2
+Glyph name: uni00A4	Contours detected: 3	Expected: 2
+Glyph name: guillemotleft	Contours detected: 3	Expected: 2
+Glyph name: twosuperior	Contours detected: 2	Expected: 1
+Glyph name: threesuperior	Contours detected: 2	Expected: 1
+Glyph name: periodcentered	Contours detected: 2	Expected: 1
+Glyph name: onesuperior	Contours detected: 2	Expected: 1
+Glyph name: onehalf	Contours detected: 5	Expected: 3
+Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
+Glyph name: Agrave	Contours detected: 4	Expected: 3
+Glyph name: Aacute	Contours detected: 4	Expected: 3
+Glyph name: Acircumflex	Contours detected: 4	Expected: 3
+Glyph name: Atilde	Contours detected: 4	Expected: 3
+Glyph name: Adieresis	Contours detected: 5	Expected: 4
+Glyph name: Aring	Contours detected: 5	Expected: 3 or 4
+Glyph name: Egrave	Contours detected: 3	Expected: 2
+Glyph name: Eacute	Contours detected: 3	Expected: 2
+Glyph name: Ecircumflex	Contours detected: 3	Expected: 2
+Glyph name: Edieresis	Contours detected: 4	Expected: 3
+Glyph name: Igrave	Contours detected: 3	Expected: 2
+Glyph name: Iacute	Contours detected: 3	Expected: 2
+Glyph name: Icircumflex	Contours detected: 3	Expected: 2
+Glyph name: Idieresis	Contours detected: 4	Expected: 3
+Glyph name: Ntilde	Contours detected: 3	Expected: 2
+Glyph name: Ograve	Contours detected: 4	Expected: 3
+Glyph name: Oacute	Contours detected: 4	Expected: 3
+Glyph name: Ocircumflex	Contours detected: 4	Expected: 3
+Glyph name: Otilde	Contours detected: 4	Expected: 3
+Glyph name: Odieresis	Contours detected: 5	Expected: 4
+Glyph name: Ugrave	Contours detected: 3	Expected: 2
+Glyph name: Uacute	Contours detected: 3	Expected: 2
+Glyph name: Ucircumflex	Contours detected: 3	Expected: 2
+Glyph name: Udieresis	Contours detected: 4	Expected: 3
+Glyph name: Yacute	Contours detected: 3	Expected: 2
+Glyph name: agrave	Contours detected: 4	Expected: 3
+Glyph name: aacute	Contours detected: 4	Expected: 3
+Glyph name: acircumflex	Contours detected: 4	Expected: 3
+Glyph name: atilde	Contours detected: 4	Expected: 3
+Glyph name: adieresis	Contours detected: 5	Expected: 4
+Glyph name: aring	Contours detected: 5	Expected: 4
+Glyph name: egrave	Contours detected: 4	Expected: 3
+Glyph name: eacute	Contours detected: 4	Expected: 3
+Glyph name: ecircumflex	Contours detected: 4	Expected: 3
+Glyph name: edieresis	Contours detected: 5	Expected: 4
+Glyph name: igrave	Contours detected: 3	Expected: 2
+Glyph name: iacute	Contours detected: 3	Expected: 2
+Glyph name: icircumflex	Contours detected: 3	Expected: 2
+Glyph name: idieresis	Contours detected: 4	Expected: 3
+Glyph name: ntilde	Contours detected: 3	Expected: 2
+Glyph name: ograve	Contours detected: 4	Expected: 3
+Glyph name: oacute	Contours detected: 4	Expected: 3
+Glyph name: ocircumflex	Contours detected: 4	Expected: 3
+Glyph name: otilde	Contours detected: 4	Expected: 3
+Glyph name: odieresis	Contours detected: 5	Expected: 4
+Glyph name: ugrave	Contours detected: 3	Expected: 2
+Glyph name: uacute	Contours detected: 3	Expected: 2
+Glyph name: ucircumflex	Contours detected: 3	Expected: 2
+Glyph name: udieresis	Contours detected: 4	Expected: 3
+Glyph name: yacute	Contours detected: 3	Expected: 2
+Glyph name: ydieresis	Contours detected: 4	Expected: 3
+Glyph name: Amacron	Contours detected: 4	Expected: 3
+Glyph name: amacron	Contours detected: 4	Expected: 3
+Glyph name: Abreve	Contours detected: 4	Expected: 3
+Glyph name: abreve	Contours detected: 4	Expected: 3
+Glyph name: Cacute	Contours detected: 3	Expected: 2
+Glyph name: cacute	Contours detected: 3	Expected: 2
+Glyph name: Ccircumflex	Contours detected: 3	Expected: 2
+Glyph name: ccircumflex	Contours detected: 3	Expected: 2
+Glyph name: Cdotaccent	Contours detected: 3	Expected: 2
+Glyph name: cdotaccent	Contours detected: 3	Expected: 2
+Glyph name: Ccaron	Contours detected: 3	Expected: 2
+Glyph name: ccaron	Contours detected: 3	Expected: 2
+Glyph name: Dcaron	Contours detected: 4	Expected: 3
+Glyph name: dcaron	Contours detected: 4	Expected: 3
+Glyph name: Emacron	Contours detected: 3	Expected: 2
+Glyph name: emacron	Contours detected: 4	Expected: 3
+Glyph name: Ebreve	Contours detected: 3	Expected: 2
+Glyph name: ebreve	Contours detected: 4	Expected: 3
+Glyph name: Edotaccent	Contours detected: 3	Expected: 2
+Glyph name: edotaccent	Contours detected: 4	Expected: 3
+Glyph name: Ecaron	Contours detected: 3	Expected: 2
+Glyph name: ecaron	Contours detected: 4	Expected: 3
+Glyph name: Gcircumflex	Contours detected: 3	Expected: 2
+Glyph name: Gbreve	Contours detected: 3	Expected: 2
+Glyph name: Gdotaccent	Contours detected: 3	Expected: 2
+Glyph name: uni0122	Contours detected: 3	Expected: 2
+Glyph name: Hcircumflex	Contours detected: 3	Expected: 2
+Glyph name: Itilde	Contours detected: 3	Expected: 2
+Glyph name: itilde	Contours detected: 3	Expected: 2
+Glyph name: Imacron	Contours detected: 3	Expected: 2
+Glyph name: imacron	Contours detected: 3	Expected: 2
+Glyph name: Ibreve	Contours detected: 3	Expected: 2
+Glyph name: ibreve	Contours detected: 3	Expected: 2
+Glyph name: Idotaccent	Contours detected: 3	Expected: 2
+Glyph name: IJ	Contours detected: 3	Expected: 1 or 2
+Glyph name: ij	Contours detected: 5	Expected: 3 or 4
+Glyph name: Jcircumflex	Contours detected: 3	Expected: 2
+Glyph name: jcircumflex	Contours detected: 3	Expected: 2
+Glyph name: Lacute	Contours detected: 3	Expected: 2
+Glyph name: uni013B	Contours detected: 3	Expected: 2
+Glyph name: uni013C	Contours detected: 3	Expected: 2
+Glyph name: Lcaron	Contours detected: 3	Expected: 2
+Glyph name: lcaron	Contours detected: 3	Expected: 2
+Glyph name: Ldot	Contours detected: 3	Expected: 2
+Glyph name: ldot	Contours detected: 3	Expected: 2
+Glyph name: Nacute	Contours detected: 3	Expected: 2
+Glyph name: nacute	Contours detected: 3	Expected: 2
+Glyph name: uni0145	Contours detected: 3	Expected: 2
+Glyph name: uni0146	Contours detected: 3	Expected: 2
+Glyph name: Ncaron	Contours detected: 3	Expected: 2
+Glyph name: ncaron	Contours detected: 3	Expected: 2
+Glyph name: Omacron	Contours detected: 4	Expected: 3
+Glyph name: omacron	Contours detected: 4	Expected: 3
+Glyph name: Obreve	Contours detected: 4	Expected: 3
+Glyph name: obreve	Contours detected: 4	Expected: 3
+Glyph name: Ohungarumlaut	Contours detected: 5	Expected: 4
+Glyph name: ohungarumlaut	Contours detected: 5	Expected: 4
+Glyph name: Racute	Contours detected: 4	Expected: 3
+Glyph name: racute	Contours detected: 3	Expected: 2
+Glyph name: uni0156	Contours detected: 4	Expected: 3
+Glyph name: uni0157	Contours detected: 3	Expected: 2
+Glyph name: Rcaron	Contours detected: 4	Expected: 3
+Glyph name: rcaron	Contours detected: 3	Expected: 2
+Glyph name: Sacute	Contours detected: 3	Expected: 2
+Glyph name: sacute	Contours detected: 3	Expected: 2
+Glyph name: Scircumflex	Contours detected: 3	Expected: 2
+Glyph name: scircumflex	Contours detected: 3	Expected: 2
+Glyph name: Scaron	Contours detected: 3	Expected: 2
+Glyph name: scaron	Contours detected: 3	Expected: 2
+Glyph name: Tcaron	Contours detected: 3	Expected: 2
+Glyph name: Utilde	Contours detected: 3	Expected: 2
+Glyph name: utilde	Contours detected: 3	Expected: 2
+Glyph name: Umacron	Contours detected: 3	Expected: 2
+Glyph name: umacron	Contours detected: 3	Expected: 2
+Glyph name: Ubreve	Contours detected: 3	Expected: 2
+Glyph name: ubreve	Contours detected: 3	Expected: 2
+Glyph name: Uring	Contours detected: 4	Expected: 3
+Glyph name: uring	Contours detected: 4	Expected: 3
+Glyph name: Uhungarumlaut	Contours detected: 4	Expected: 3
+Glyph name: uhungarumlaut	Contours detected: 4	Expected: 3
+Glyph name: Wcircumflex	Contours detected: 3	Expected: 2
+Glyph name: wcircumflex	Contours detected: 3	Expected: 2
+Glyph name: Ycircumflex	Contours detected: 3	Expected: 2
+Glyph name: ycircumflex	Contours detected: 3	Expected: 2
+Glyph name: Ydieresis	Contours detected: 4	Expected: 3
+Glyph name: Zacute	Contours detected: 3	Expected: 2
+Glyph name: zacute	Contours detected: 3	Expected: 2
+Glyph name: Zdotaccent	Contours detected: 3	Expected: 2
+Glyph name: zdotaccent	Contours detected: 3	Expected: 2
+Glyph name: Zcaron	Contours detected: 3	Expected: 2
+Glyph name: zcaron	Contours detected: 3	Expected: 2
+Glyph name: perthousand	Contours detected: 9	Expected: 6 or 7
+Glyph name: uni2032	Contours detected: 2	Expected: 1
+Glyph name: uni2033	Contours detected: 3	Expected: 2
+Glyph name: uni0218	Contours detected: 3	Expected: 2
+Glyph name: uni0219	Contours detected: 3	Expected: 2
+Glyph name: uni021A	Contours detected: 3	Expected: 2
+Glyph name: uni021B	Contours detected: 3	Expected: 2
+Glyph name: uni02BC	Contours detected: 2	Expected: 1
+Glyph name: fi	Contours detected: 4	Expected: 1, 2 or 3
+Glyph name: fl	Contours detected: 3	Expected: 1 or 2
+Glyph name: uni2074	Contours detected: 3	Expected: 1 or 2
+Glyph name: uni2075	Contours detected: 2	Expected: 1
+Glyph name: uni00AD	Contours detected: 2	Expected: 1
+Glyph name: percent	Contours detected: 7	Expected: 5
+Glyph name: threequarters	Contours detected: 6	Expected: 3 or 4
+Glyph name: equal	Contours detected: 3	Expected: 2
+Glyph name: Wgrave	Contours detected: 3	Expected: 2
+Glyph name: wgrave	Contours detected: 3	Expected: 2
+Glyph name: Wacute	Contours detected: 3	Expected: 2
+Glyph name: wacute	Contours detected: 3	Expected: 2
+Glyph name: Wdieresis	Contours detected: 4	Expected: 3
+Glyph name: wdieresis	Contours detected: 4	Expected: 3
+Glyph name: Ygrave	Contours detected: 3	Expected: 2
+Glyph name: ygrave	Contours detected: 3	Expected: 2
+
+   Result: 	[1;33;40mWARN	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/name/familyname	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mCheck name table: FONT_FAMILY_NAME entries. 	[0m
+ * 	[1;31;40mFAIL	[0m: Entry [FONT_FAMILY_NAME(1):MACINTOSH(1)] on the 'name' table: Expected 'Red Hat Display' but got 'Red Hat Display Black'.
+
+   Result: 	[1;31;40mFAIL	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/name/subfamilyname	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mCheck name table: FONT_SUBFAMILY_NAME entries. 	[0m
+ * 	[1;31;40mFAIL	[0m: Entry [FONT_SUBFAMILY_NAME(2):MACINTOSH(1)] on the 'name' table: Expected 'Black' but got 'Regular'. [code: bad-familyname]
+
+   Result: 	[1;31;40mFAIL	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/integer_ppem_if_hinted	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mPPEM must be an integer on hinted fonts.	[0m
+ * 	[1;31;40mFAIL	[0m: This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into and integer value.
+
+   Result: 	[1;31;40mFAIL	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/fontbakery_version	[0m
+   	[1;35;40mDo we have the latest version of FontBakery installed?	[0m
+ * 	[1;37;41mERROR	[0m: Failed with TypeError: argument of type 'NoneType' is not iterable
+           File "/usr/local/lib/python3.7/site-packages/fontbakery/checkrunner.py", line 345, in _exec_check
+             for sub_result in result:  # Might raise.
+           File "/usr/local/lib/python3.7/site-packages/fontbakery/profiles/general.py", line 216, in com_google_fonts_check_fontbakery_version
+             if not (is_latest or is_up_to_date(installed_str, latest_str)):
+           File "/usr/local/lib/python3.7/site-packages/fontbakery/profiles/general.py", line 175, in is_up_to_date
+             has_githash = ".dev" in installed
+         
+
+   Result: 	[1;37;41mERROR	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/fontforge	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mFontForge checks.	[0m
+ * 	[1;33;40mWARN	[0m: fontforge-check: Glyphs do not have points at extremas!
+
+   Result: 	[1;33;40mWARN	[0m
+
+>> 	[1;36;40mcom.google.fonts/check/name/family_and_style_max_length	[0m with (('font[0]', 'RedHatDisplay-Black.ttf'),)
+   	[1;35;40mCombined length of family and style must not exceed 20 characters.	[0m
+ * 	[1;33;40mWARN	[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Red Hat Display Black' / SUBFAMILY_NAME = 'Regular'
+ * 	[1;33;40mWARN	[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Red Hat Display Black' / SUBFAMILY_NAME = 'Regular'
+
+   Result: 	[1;33;40mWARN	[0m
+
+
+Total:
+
+    	[1;37;41mERROR	[0m: 1
+    	[1;31;40mFAIL	[0m: 4
+    	[1;33;40mWARN	[0m: 4
+    	[1;34;40mSKIP	[0m: 60
+    	[1;36;40mINFO	[0m: 7
+    	[1;32;40mPASS	[0m: 74
+
+
+DONE!
+
